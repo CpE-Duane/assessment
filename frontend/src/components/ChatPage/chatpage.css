@@ -1,0 +1,55 @@
+.msg-box, .contact-list, .messages {
+    height: calc(100vh - 80px);
+}
+
+.contacts {
+    border-right: 5px solid #DDF1DA;
+}
+
+.msg-box {
+    border-left: 5px solid #DDF1DA;
+    border-right: 5px solid #DDF1DA;
+}
+
+.contact {
+    background-color: #DDF1DA;
+    cursor: pointer;
+}
+
+.contact:hover {
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+img {
+    height: 70px !important;
+    width: 85px;
+    border-radius: 50%;
+}
+
+.contacts, .chat-box {
+    overflow-y: scroll;
+}
+
+.chatbox-header {
+    border-bottom: 5px solid #DDF1DA;
+}
+
+.chatbox {
+    position: relative;
+}
+
+.chat-input {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+
+.chat-input input {
+    border: 5px solid #DDF1DA;
+    border-radius: 30px;
+}
+
+i {
+    cursor: pointer;
+}
